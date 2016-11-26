@@ -1,0 +1,27 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+	"target": "es5",
+        "module": "amd",
+        "sourceMap":  true,
+        "rootDir": "./",
+        "outFile": "./js/app.js"
+    },
+    "files": [
+        "./lib/jquery.d.ts",
+        "./lib/bootstrap.d.ts",
+        "./lib/loglevel.d.ts",
+        
+        "./ts/config.ts",
+        "./ts/model/destination.ts",
+        "./ts/model/flight.ts",
+        "./ts/model/reservation.ts",
+        "./ts/generalRequest.ts",
+        "./ts/generalList.ts",
+        "./ts/destinationsRequest.ts",
+        "./ts/destinationsList.ts",
+        "./ts/flightsRequest.ts",
+        "./ts/flightsList.ts",
+        "./ts/app.ts"
+    ]
+}
